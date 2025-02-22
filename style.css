@@ -1,81 +1,82 @@
 body {
-  font-family: 'Arial', sans-serif;
-  text-align: center;
-  margin: 20px;
-  background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #ede1f8; /* Rosa claro */
 }
 
 h2 {
-  color: #333;
+    color: #806E83; /* Morado */
 }
 
 #messages {
-  margin-top: 20px;
-  border: 1px solid #ddd;
-  background: white;
-  padding: 10px;
-  width: 60%;
-  margin: auto;
-  height: 300px;
-  overflow-y: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border: none;
+    background: white;
+    padding: 15px;
+    width: 60%;
+    margin: auto;
+    height: 300px;
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 p {
-  padding: 8px;
-  margin: 5px 0;
-  border-radius: 5px;
-  max-width: 80%;
-  word-wrap: break-word;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
 }
 
 p strong {
-  color: #007bff;
+    color: #806E83; /* Morado */
 }
 
 input, button {
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
 }
 
 input {
-  width: 50%;
-  background: #fff;
-  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    background: #fff; /* Azul claro */
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #806E83; /* Morado */
 }
 
 button {
-  background: #007bff;
-  color: white;
-  cursor: pointer;
-  border: none;
-  transition: 0.3s;
+    background: #99B4DA; /* Azul grisáceo */
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
 }
 
 button:hover {
-  background: #0056b3;
+    background: #806E83; /* Morado */
 }
 
 /* Estilo para los mensajes enviados */
 .mi-mensaje {
-  background: #007bff;
-  color: white;
-  align-self: flex-end;
-  text-align: right;
-  padding: 8px 12px;
-  border-radius: 10px 10px 0 10px;
+    background: #99B4DA; /* Azul grisáceo */
+    color: white;
+    align-self: flex-end;
+    text-align: right;
+    padding: 10px 15px;
+    border-radius: 10px 10px 0 10px;
 }
 
 /* Estilo para los mensajes recibidos */
 .otro-mensaje {
-  background: #e9ecef;
-  color: black;
-  align-self: flex-start;
-  text-align: left;
-  padding: 8px 12px;
-  border-radius: 10px 10px 10px 0;
+    background: #C1CFE6; /* Azul claro */
+    color: #806E83; /* Morado */
+    align-self: flex-start;
+    text-align: left;
+    padding: 10px 15px;
+    border-radius: 10px 10px 10px 0;
 }
